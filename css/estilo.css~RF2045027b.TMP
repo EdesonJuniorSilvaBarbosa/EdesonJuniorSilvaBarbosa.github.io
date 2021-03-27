@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	background:url(../imagens%20do%20sistema/Background/microscopio.gif) fixed;
+	margin:0;
+}
+
+/*======================Topo / Menu=============================*/
+.topo{
+	width: 100%; 
+	background-color:green;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+	height:auto;
+	position:fixed;
+	margin:0;
+	display:table;
+	/*opacity:0.92;*/
+	z-index:5;
+	margin-top:-2%;
+
+}
+
+.topo a{
+    border-radius:5%;
+}
+
+/*==============ICON ANIMADO=========================*/
+.variant{
+    width: 100%;
+    position: relative;
+    -webkit-animation: variant 5s infinite alternate; 
+    animation: variant 5s infinite alternate;
+    text-decoration: none;
+}
+
+@-webkit-keyframes variant {0%{color:red; left:0px; top:0px;}
+						   25%{color:Violet; left:60%; top:0px;}
+						   50%{color:blue; left:60%; top:0px;}
+						   75%{color:green; left:0px; top:0px;}
+						   100% {color:red; left:0px; top:0px;}
+}
+
+@keyframes variant {0%{color:red; left:0px; top:0px;}
+				   25%{color:Violet; left:60%; top:0px;}
+				   50%{color:blue; left:60%; top:0px;}
+				   75%{color:green; left:0px; top:0px;}
+				   100% {color:red; left:0px; top:0px;}
+}
+
+/*=======================MENU=======================*/
+
+.menu{
+	width:100%; 
+	display:table-cell;
+	line-height: 5%;
+	color: #fff;
+}
+
+
+.menu a{
+	color:#FFFFFF; 
+	font-size:1.5em; 
+	padding: 1% 2%; 
+	font-family:Thaoma; 
+	font-weight:bold; 
+	text-decoration:none; 
+	margin-right: 2%;
+	margin-left: 3%;
+	/*text-shadow: 3px 2px #000;*/
+}
+
+.menu a:hover {
+	background-color:#000; 
+	border-radius: 5px; 
+	text-decoration: none; 
+	color: #fff;
+	font-size: 1.8em;
+	font-style:normal;
+	opacity: 0.7;
+}
+
+.logo {
+	display: table-cell;
+	padding:1% 2%; 
+	margin-top: 7%; 
+	margin-left: 5%;
+}
+
+/*===================Carrossel=========================*/
+
+.carrossel{
+	
+	width:90%;
+	padding: 3% 4%;
+	margin-top: 10%;
+
+}
+
+#owl-demo{ 
+	width:100%;
+	display:block; 
+	height:auto; 
+
+}
+
+#owl-demo .item img{
+	display: block; 
+	width: 90%; 
+	height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+ 
+/*====================Cadastro===========================*/
+
+fieldset{
+	width:50%; 
+	border-radius:5px; 
+	height:auto; 
+	padding:1% 2%; 
+	text-align:justify; 
+	border:1px solid #66595A;
+	margin-top: 2%;
+	margin:0 auto;
+	font-style:italic;
+	font-weight:bold;
+}
+
+legend{
+    font-size:2.0em;
+    text-decoration: underline;
+}
+	
+.formulario{
+	width:100%; 
+	float:left; 
+	margin:0 auto; 
+	background-color:#FFF; 
+	height:auto;
+	opacity:0.8;
+	margin-top:10%;
+    margin-bottom: 5%;
+}
+
+.formulario button{
+    width:20%;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #4B0082;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*=============Estilizando ======================================*/
+
+.formulario input {
+    color:#0000CD;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.formulario select {
+    color:#0000CD;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.formulario option {
+    color:#0000CD;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.formulario label {
+    color:#000;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*===========================Form Login=======================*/
+
+.logar{
+	width:80%; 
+	background-color:white;
+	border-radius:5px; 
+	margin:0 auto; 
+	color:#555;
+	height:auto;
+	opacity:0.8;
+	margin-top:15%;
+	padding: 3% 4%;
+}
+
+.logar form{
+	width:50%; 
+	border:1px solid #555; 
+	padding:3% 4%; 
+	margin: 0 auto;
+	margin-top:2%; 
+	border-radius:5px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight:bold;
+	font-style:italic;
+	font-size:1.0em;
+	
+}
+
+.logar img{
+	width:80%; 
+	margin:0 auto; 
+	padding:3% 4%;
+}
+
+.logar legend {
+	text-align:center; 
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+
+}
+
+.logar a{
+	text-decoration:none; 
+	color:#900; 
+	font-size:1.0em;
+	padding:3% 6%;
+
+}
+
+.logar a:hover{
+	color:#18A3C0; 
+	text-decoration:underline;
+}
+
+.rodape{
+	width: 100%;
+	text-align: center;
+    margin-top: 2%;
+}
+
+.rodape a {
+	font-size: 1.5em;
+	border-radius: 5px; 
+	color:#000;
+    margin-right:2%;
+	
+	
+}
+.rodape a:last-child{
+	margin-right: 0;
+	}
+.rodape a:hover {
+	color:#1675AA;
+}
+.copyright{
+	color:#000; 
+	font-weight:bold;
+}
+
+/*========================Quem Somos==================================*/
+
+.topo-inicial{
+	width:90%; 
+    background-color: #7B68EE;
+	padding:3% 4%; 
+	height:100px; 
+	margin:0 auto; 
+	border-radius: 5px;
+	
+}
+
+.links {
+	width: 100%;
+	font-size: 1.0em;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    margin-top: -3%;
+	font-weight:bold;
+    margin-left: 160px;
+}
+
+.links a{
+	padding:1% 2%;
+	color:#fff;
+	background-color:#000;
+    opacity: 0.8;
+	text-decoration:none;
+	border-radius:10px;
+}
+
+.links a:hover{
+	color:#B3740D;
+}
+
+.servicos{
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #E0FFFF;
+}
+.servicos h1{
+    text-shadow: 1px 1px #000;
+    color: #900;
+    opacity: 0.9;
+    margin: 50px;    
+}
+.servicos img{
+    border-radius:5px;
+}
+.servicos p{
+    font-weight: bold;
+    text-align: justify;
+    margin: 50px;
+}
+
+.servicos table{
+    margin:50px;
+}
+
+.fale a{
+   margin-top: 30%;
+   margin-right: 100px;
+}
+
