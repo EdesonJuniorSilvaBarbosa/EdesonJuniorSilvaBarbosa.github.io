@@ -1,9 +1,5 @@
 /*
-Theme Name: Start sua carreira
-Theme URI: http://www.startsuacarreira.com.br
-Author: Kenzie Academy BR
-Author URI: https://kenzie.com.br;
-Description: Descrição do thema.
+Author: Edeson Junior Silva Barbosa
 Version: 1.0
 
 --------------------------------------------
@@ -36,8 +32,8 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 :root{
-    --corBackgroundPrimaria: #45dbfc;
-    --corBackgroundSecundaria: #04133d;
+    --corBackgroundPrimaria: #D6EAF8;
+    --corBackgroundSecundaria: #7d041c;
     --corBackgroundDark:#0e0e0e;
     --corTextPrimaria:#636363;
     --corTextoSecudaria:#000;
