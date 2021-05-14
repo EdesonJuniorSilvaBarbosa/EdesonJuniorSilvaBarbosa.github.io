@@ -33,7 +33,6 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 
 :root{
     --corBackgroundPrimaria: #D6EAF8;
-    /*--corBackgroundSecundaria: #7d041c;*/
     --corBackgroundSecundaria: #2e42b3;
     --corBackgroundDark:#0e0e0e;
     --corTextPrimaria:#636363;
@@ -91,7 +90,6 @@ header .coluna ul li{
 }
 header .coluna ul li a{
     font-size: 1rem;
-    /*color:var(--corTextoSecudaria);*/
     font-weight:bold;
 }
 
@@ -193,7 +191,6 @@ label span{
     width: 20px;
     height: 20px;
     display: block;
-    /*background-color: #d4e9ff;*/
     background-color: white;
     border-radius: 100%;
     transition: all ease .3s;
@@ -204,7 +201,6 @@ label span{
 }
 .ativar-dark:checked ~ .dark-mode label span{
     background-color: var(--corBackgroundSecundaria);
-    /* margin-left: 21px; */
     transform: translateX(21px);
     transition: all ease .3s;
 }
@@ -277,7 +273,6 @@ label span{
         text-align: left;
     }
     main .coluna section{
-        /* border: 2px solid #d4e9ff; */
         border: 2px solid transparent;
         padding: 20px;
         position: relative;
