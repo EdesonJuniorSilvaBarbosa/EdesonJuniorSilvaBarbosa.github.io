@@ -32,8 +32,9 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 :root{
-    --corBackgroundPrimaria: #D6EAF8;
-    --corBackgroundSecundaria: #2e42b3;
+    --corBackgroundPrimaria: #a34903;
+    /*--corBackgroundPrimaria: #D6EAF8;*/
+    --corBackgroundSecundaria: #1a317d;
     --corBackgroundDark:#0e0e0e;
     --corTextPrimaria:#636363;
     --corTextoSecudaria:#000;
@@ -91,7 +92,7 @@ header .coluna ul li{
 }
 header .coluna ul li a{
     font-size: 1rem;
-    font-weight:bold;
+    color:var(--corTextoSecudaria);
 }
 
 
