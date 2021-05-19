@@ -32,9 +32,9 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 :root{
-    --corBackgroundPrimaria: #D6EAF8;
-    /*--corBackgroundSecundaria: #7d041c;*/
-    --corBackgroundSecundaria: #2e42b3;
+    --corBackgroundPrimaria: #b53b0b;
+    /*--corBackgroundPrimaria: #D6EAF8;*/
+    --corBackgroundSecundaria: #113059;
     --corBackgroundDark:#0e0e0e;
     --corTextPrimaria:#636363;
     --corTextoSecudaria:#000;
@@ -82,6 +82,7 @@ header .coluna p{
     font-size: 1rem;
     color:var(--corTextPrimaria);
     font-weight: bold;
+    margin-top:5px;
 }
 header .coluna ul{
     margin: 16px 0 0;
@@ -91,8 +92,7 @@ header .coluna ul li{
 }
 header .coluna ul li a{
     font-size: 1rem;
-    /*color:var(--corTextoSecudaria);*/
-    font-weight:bold;
+    color:var(--corTextPrimaria);
 }
 
 
@@ -272,7 +272,10 @@ label span{
         max-width: 1125px;
         margin: 0 auto;
         padding: 30px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
+    
     header .coluna-direita{
         text-align: left;
     }
