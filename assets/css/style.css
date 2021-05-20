@@ -58,7 +58,7 @@ header{
     padding: 30px 30px 0;
 }
 header .container{
-    background-color: white;
+    background-color: #f3b450;
 }
 header .linha{
     align-items: center;
@@ -296,8 +296,10 @@ label span{
         animation-duration: 1s, 1s;
         animation-delay: 2s, 3s;
         animation-fill-mode: forwards;
-        border-top-color: #d4e9ff;
-        border-right-color: #d4e9ff;
+        border-top-color: #e6a132;        
+        border-right-color: #e6a132;
+        border-radius: 5px;
+        box-shadow: 5px 5px 1px #ccc;
     }
     main .coluna section .baixo-esquerda{
         bottom: -2px;
@@ -306,8 +308,9 @@ label span{
         animation-duration: 1s, 1s;
         animation-delay: 4s, 5s;
         animation-fill-mode: forwards;
-        border-bottom-color: #d4e9ff;
-        border-left-color: #d4e9ff;
+        border-bottom-color: #e6a132;
+        border-left-color: #e6a132;
+        border-radius: 5px;
     }
     main .coluna{
         padding: 0;
